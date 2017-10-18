@@ -1,0 +1,39 @@
+.grid {
+  width: 30rem;
+  display: inline-block; }
+
+@media (max-width: 450px) {
+  .grid {
+    width: 100%;
+    display: block; } }
+
+.user__icon {
+  width: 2rem;
+  height: 2rem; }
+
+.user__info {
+  display: inline-flex; }
+  .user__info--left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+  .user__info--right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+
+.groups__title {
+  margin-bottom: 2rem; }
+
+#plus {
+  width: 2rem;
+  height: 2rem; }
+
+.user__groups {
+  display: inline-block;
+  flex-direction: column; }
+  .user__groups .group__minus {
+    width: 5px;
+    margin-left: -85px; }

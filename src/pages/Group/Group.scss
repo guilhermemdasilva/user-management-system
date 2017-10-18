@@ -1,0 +1,54 @@
+.grid {
+  width: 30rem;
+  display: inline-block;
+}
+
+@media (max-width: 450px) {
+  .grid {
+    width: 100%;
+    display: block;
+  }
+}
+
+.group {
+  &__icon {
+    width: 2rem;
+    height: 2rem;
+  }
+
+  &__info {
+    display: inline-flex;
+    &--left {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    &--right {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+
+.users {
+  &__title {
+    margin-bottom: 2rem;
+  }
+}
+
+#plus {
+  width: 2rem;
+  height: 2rem;
+}
+
+.group__users {
+  display: inline-block;
+  flex-direction: column;
+  .user__minus {
+    width: 5px;
+    margin-left: -85px;
+  }
+}

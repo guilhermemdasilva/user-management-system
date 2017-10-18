@@ -1,0 +1,16 @@
+.gridItem {
+  width: 10rem;
+  flex-direction: column;
+  float: left;
+  &__icon {
+    width: 2rem;
+    height: 2rem;
+  }
+  &__name {
+    width: 10rem;
+    margin: 5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}

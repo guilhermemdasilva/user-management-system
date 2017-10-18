@@ -1,0 +1,7 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  background-color: #203047;
+  color: white; }
+  .header__title {
+    font-size: 1.5em; }

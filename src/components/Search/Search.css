@@ -1,0 +1,7 @@
+.search {
+  display: flex;
+  margin: 1rem; }
+  .search input {
+    width: 10rem;
+    height: 1rem;
+    border-radius: 5px; }

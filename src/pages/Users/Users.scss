@@ -1,0 +1,19 @@
+.grid {
+  width: 30rem;
+  display: inline-block;
+}
+
+@media (max-width: 450px) {
+  .grid {
+    width: 100%;
+    display: block;
+  }
+}
+
+.search {
+  width: 10rem;
+  height: 1rem;
+  display: flex;
+  margin: 1rem;
+  border-radius: 5px;
+}

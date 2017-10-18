@@ -1,0 +1,12 @@
+ul li {
+  display: inline-flex;
+  list-style-type: none;
+}
+
+li {
+  margin: 1rem;
+  img {
+    width: 8rem;
+    height: 8rem;
+  }
+}
